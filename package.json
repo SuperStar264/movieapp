@@ -4,6 +4,8 @@
   "homepage":"https://SuperStar264.github.io/movieapp/",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
